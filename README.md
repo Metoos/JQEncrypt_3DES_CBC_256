@@ -22,7 +22,7 @@ JQEncrypt 是用于3DES 256加密解密的库。
 
 @"是测试字符串，换成您需要加密的内容即可"
 
-
+(```)
 JQEncrypt * en = [[JQEncrypt alloc]init];
 //加密
 NSString * encryptStr = [en doEncryptStr: @"是测试字符串，换成您需要加密的内容即可"];
@@ -38,7 +38,7 @@ NSString *decEncryptHex = [en doEncryptHex:encryptHex];
 
 NSLog(@"字符串解密:%@",decEncryptStr);
 NSLog(@"字符串解密:%@",decEncryptHex);
-
+(```)
 
 
 php服务器，java服务器，android，ios开发兼容的3des加密解密，
