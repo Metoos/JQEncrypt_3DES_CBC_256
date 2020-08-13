@@ -1,6 +1,13 @@
-# JQEncrypt_3DES_CBC模式_256位_Base64
-## php服务器，java服务器，android，ios开发兼容的3des加密解密
+//
+//  ReadMe.h
+//  JQ3DES
+//
+//  Created by apple on 15/12/11.
+//  Copyright © 2015年 apple. All rights reserved.
+//
 
+#ifndef ReadMe_h
+#define ReadMe_h
 使用前必读：
 
 JQEncrypt 是用于3DES 256加密解密的库。
@@ -329,3 +336,7 @@ public class DES3 {
         
     }
 }
+
+
+
+#endif /* ReadMe_h */
