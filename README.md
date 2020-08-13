@@ -22,7 +22,7 @@ JQEncrypt 是用于3DES 256加密解密的库。
 
 @"是测试字符串，换成您需要加密的内容即可"
 
-(```)
+```
 JQEncrypt * en = [[JQEncrypt alloc]init];
 //加密
 NSString * encryptStr = [en doEncryptStr: @"是测试字符串，换成您需要加密的内容即可"];
@@ -38,13 +38,11 @@ NSString *decEncryptHex = [en doEncryptHex:encryptHex];
 
 NSLog(@"字符串解密:%@",decEncryptStr);
 NSLog(@"字符串解密:%@",decEncryptHex);
-(```)
+```
 
 
-php服务器，java服务器，android，ios开发兼容的3des加密解密，
-
-PHP示例
-(```)
+PHP服务器代码示例
+```
 <?php
 class DES3 {
     var $key = "15H2VOsmdNXuwW4XD0BEBkB7";
@@ -115,11 +113,11 @@ class DES3 {
 $des = new DES3();
 echo $ret = $des->encrypt("待加密串11544") . "\n";
 echo $des->decrypt($ret) . "\n";
-(```)
+```
 
 
- java(android)示例
-(```)
+ java(android)代码示例
+```
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -329,4 +327,4 @@ public class DES3 {
         
     }
 }
-(```)
+```
